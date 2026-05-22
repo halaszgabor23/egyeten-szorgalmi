@@ -1,0 +1,1 @@
+# egyeten-szorgalmi
