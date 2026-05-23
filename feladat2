@@ -1,0 +1,17 @@
+#include <iostream>
+
+// 2feladat: a memória túlterhelés
+int main()
+{
+
+    while (true){
+
+        // Lefoglalunk egy tömböt (pl. 1 millió egész szám) minden körben
+
+        int* sokMemoria = new int[1000000];
+
+        // mivel nincs 'delete sokMemoria', a gép memóriája szépen lassan (vagy gyorsan) betelik.
+    }
+
+    return 0;
+}
