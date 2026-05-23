@@ -1,0 +1,11 @@
+#include <iostream>
+
+// A projekt feladata a CPU túlterhelése
+int main()
+{
+    while (true) {
+        // Az üres ciklust a szamitogep folyamatosan fogja vizsgalni
+        //ezzel leterhelve egy CPU mag 100%-at.
+    }
+    return 0;
+}
